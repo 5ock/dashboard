@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl'
 
-export type order = {
+export interface order {
     name: string;
     status: string;
     date: string;

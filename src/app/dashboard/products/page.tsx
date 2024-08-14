@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Search from '@/ui/dashboard/search/search'
 import Pagination from '@/ui/pagination'
 
-export type productProps = {
+export interface productProps {
     id: string;
     title: string;
     description: string;
