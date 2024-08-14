@@ -1,0 +1,28 @@
+@tailwind components;
+
+@layer components {
+    .container {
+        @apply flex gap-12 w-full mt-5;
+    }
+
+    .formContainer {
+        @apply bg-cBgSoft p-5 rounded-lg w-full;
+    }
+
+    .form-lable {
+        @apply text-sm ;
+    }
+
+    .form-input {
+        @apply p-2 my-2  border-2 border-[#2e374a] rounded-md bg-cBgMain text-cTextMain w-full;
+    }
+    .form-select {
+        @apply p-2 my-2 border-2 border-[#2e374a] rounded-md bg-cBgMain text-cTextMain w-full;
+    }
+    .form-textarea {
+        @apply p-2 my-2 border-2 border-[#2e374a] rounded-md bg-cBgMain text-cTextMain w-full;
+    }
+    .form-button {
+        @apply w-full p-2 bg-teal-600 text-cTextMain border-none rounded-md cursor-pointer mt-5;
+    }
+}

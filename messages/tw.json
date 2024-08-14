@@ -1,0 +1,79 @@
+{
+    "LoginPage": {
+        "title": "登入",
+        "username": "使用者",
+        "password": "密碼",
+        "login": "登入",
+        "skip": "跳過"
+    },
+    "DashboardPage": {
+        "title-pages": "Pages",
+        "title-analytics": "Analytics",
+        "title-user": "User",
+
+        "item-dashboard": "Dashboard",
+        "item-users": "Users",
+        "item-products": "Products",
+        "item-orders": "Orders",
+        "item-add": "Add",
+
+        "item-revenue": "Revenue",
+
+        "item-settings": "Settings",
+        "item-logout": "Log out",
+
+        "orders-title": "Lastest Orders",
+
+        "chart-title": "Weekly Recap",
+
+        "search-for-a-user": "Search for a user...",
+        "add-new": "Add New",
+
+        "th-name": "Name",
+        "th-status": "Status",
+        "th-email": "Email",
+        "th-createdAt": "Created At",
+        "th-role": "Role",
+        "th-action": "Action",
+        "th-date": "Date",
+        "th-amount": "Amount",
+        "th-title": "Title",
+        "th-description": "Description",
+        "th-price": "Price",
+        "th-stock": "Stock",
+
+        "form-title": "Title",
+        "form-category": "Category",
+        "form-option-choose-a-category": "Choose a category",
+        "form-option-phone": "Phone",
+        "form-option-computer": "Computer",
+        "form-price": "Price",
+        "form-stock": "Stock",
+        "form-color": "Color",
+        "form-size": "Size",
+        "form-description": "Description",
+        "form-username": "Username",
+        "form-email": "Email",
+        "form-password": "Password",
+        "form-phone": "Phone",
+        "form-address": "Address",
+        "form-is-admin": "Is Admin?",
+        "form-is-active": "Is Active?",
+        "form-yes": "Yes",
+        "form-no": "No",
+
+        "action-view": "View",
+        "action-delete": "Delete",
+        "action-add": "Add",
+        "action-update": "Update"
+    },
+    "LocaleSwitcher": {
+        "en": "English",
+        "tw": "中文",
+        "label": "語言"
+    },
+    "Global": {
+        "previous": "Previous",
+        "next": "Next"
+    }
+}

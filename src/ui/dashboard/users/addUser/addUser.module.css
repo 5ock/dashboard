@@ -1,0 +1,22 @@
+@tailwind components;
+
+@layer components {
+    .form-css {
+        @apply flex flex-wrap justify-between;
+    }
+    .item-default-css {
+        @apply mb-7 p-2 bg-cBgMain text-cTextMain rounded-md border-2 border-[#2e374a];
+    }
+    .input-css {
+        @apply w-2/5;
+    }
+    .select-css {
+        @apply w-2/5;
+    }
+    .option-css {
+        @apply bg-cBgMain;
+    }
+    .button-css {
+        @apply w-full p-2 bg-teal-600 text-cTextMain border-none rounded-md;
+    }
+}
