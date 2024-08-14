@@ -4,13 +4,24 @@ import { usePathname } from "next/navigation"
 import { useTranslations } from "next-intl"
 
 import styles from '@/ui/dashboard/products/singleProduct/singleProduct.module.css'
-import { products, productProps } from '../page'
+import { productProps } from '../page'
 
 const SingleProduct = () => {
     const t = useTranslations('DashboardPage')
     const pathname = usePathname()
     const id = pathname.split('/').pop()
 
+    const products: productProps[] = [
+        {
+            id: '0000000000001',
+            title: 'product-1',
+            description: 'product-1',
+            price: 123,
+            createdAt: '2024.01.01',
+            stock: 23,
+            status: 'Active'
+        }
+    ]
     // test
     const productArray: productProps[] = products;
     const product: any = productArray.filter(el => el.id === id)![0];

@@ -4,18 +4,29 @@ import { usePathname } from "next/navigation"
 import { useTranslations } from "next-intl"
 
 import styles from '@/ui/dashboard/users/singleUser/singleUser.module.css'
-import { users, userProps } from '../page'
+import { userProps } from '../page'
 
 const SingleUserPage = () => {
     const t = useTranslations('DashboardPage')
     const pathname = usePathname()
     const id = pathname.split('/').pop()
 
+    const users: userProps[] = [
+        {
+            id: '0000000001',
+            name: 'John Doe',
+            email: 'JohnDoe@cccc.com',
+            createdAt: '2024.01.01',
+            role: 'Admin',
+            status: 'Active',
+            isAdmin: true,
+            isActive: true    
+        }
+    ]
     // test
     const userArry: userProps[] = users;
     const user: any = userArry.filter(el => el.id === id)![0];
 
-    console.log(user)
 
     return (<div className={styles['container']}>
         {/* <div className={styles['infoContainer']}>

@@ -14,20 +14,32 @@ export interface productProps {
     status: string;
 }
 
-export const products: productProps[] = [
-    {
-        id: '0000000000001',
-        title: 'product-1',
-        description: 'product-1',
-        price: 123,
-        createdAt: '2024.01.01',
-        stock: 23,
-        status: 'Active'
-    }
-]
+// export const products: productProps[] = [
+//     {
+//         id: '0000000000001',
+//         title: 'product-1',
+//         description: 'product-1',
+//         price: 123,
+//         createdAt: '2024.01.01',
+//         stock: 23,
+//         status: 'Active'
+//     }
+// ]
 
 const Products = () => {
     const t = useTranslations('DashboardPage')
+
+    const products: productProps[] = [
+            {
+                id: '0000000000001',
+                title: 'product-1',
+                description: 'product-1',
+                price: 123,
+                createdAt: '2024.01.01',
+                stock: 23,
+                status: 'Active'
+            }
+        ]
 
     return (<div className='bg-cBgSoft p-5 rounded-lg mt-5'>
         <div className='flex items-center justify-between'>

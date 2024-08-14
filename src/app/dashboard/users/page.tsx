@@ -15,22 +15,20 @@ export interface userProps {
     isActive: boolean;
 }
 
-export const users: userProps[] = [
-    {
-        id: '0000000001',
-        name: 'John Doe',
-        email: 'JohnDoe@cccc.com',
-        createdAt: '2024.01.01',
-        role: 'Admin',
-        status: 'Active',
-        isAdmin: true,
-        isActive: true    
-    }
-]
-
 const Users = () => {
     const t = useTranslations('DashboardPage')
-
+    const users: userProps[] = [
+        {
+            id: '0000000001',
+            name: 'John Doe',
+            email: 'JohnDoe@cccc.com',
+            createdAt: '2024.01.01',
+            role: 'Admin',
+            status: 'Active',
+            isAdmin: true,
+            isActive: true    
+        }
+    ]
     return (<div className='bg-cBgSoft p-5 rounded-lg mt-5'>
         <div className='flex items-center justify-between'>
             <Search placeholder={ t('search-for-a-user') } />
